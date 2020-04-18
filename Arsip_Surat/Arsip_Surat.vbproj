@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{538A9B61-9151-4A60-9D03-0E2A8A3C6597}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Arsip_Surat.My.MyApplication</StartupObject>
+    <RootNamespace>Arsip_Surat</RootNamespace>
+    <AssemblyName>Arsip_Surat</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Arsip_Surat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Arsip_Surat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Disposisi.Designer.vb">
+      <DependentUpon>Disposisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Disposisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmlap1.Designer.vb">
+      <DependentUpon>Frmlap1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmlap1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLap2.Designer.vb">
+      <DependentUpon>FrmLap2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLap2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLap3.Designer.vb">
+      <DependentUpon>FrmLap3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLap3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLap4.Designer.vb">
+      <DependentUpon>FrmLap4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLap4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTerima.Designer.vb">
+      <DependentUpon>FrmTerima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTerima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Keluar.Designer.vb">
+      <DependentUpon>Frm_Keluar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Keluar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.vb">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Masuk.Designer.vb">
+      <DependentUpon>Frm_Masuk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Masuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Menu.Designer.vb">
+      <DependentUpon>Frm_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Password.Designer.vb">
+      <DependentUpon>Frm_Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pegawai.Designer.vb">
+      <DependentUpon>Frm_Pegawai.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kendali.Designer.vb">
+      <DependentUpon>Kendali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kendali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lap1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lap1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lap2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lap2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lap3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lap3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lap4.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lap4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mod_Koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Disposisi.resx">
+      <DependentUpon>Disposisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmlap1.resx">
+      <DependentUpon>Frmlap1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLap2.resx">
+      <DependentUpon>FrmLap2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLap3.resx">
+      <DependentUpon>FrmLap3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLap4.resx">
+      <DependentUpon>FrmLap4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTerima.resx">
+      <DependentUpon>FrmTerima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Keluar.resx">
+      <DependentUpon>Frm_Keluar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Masuk.resx">
+      <DependentUpon>Frm_Masuk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Menu.resx">
+      <DependentUpon>Frm_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Password.resx">
+      <DependentUpon>Frm_Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pegawai.resx">
+      <DependentUpon>Frm_Pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kendali.resx">
+      <DependentUpon>Kendali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lap1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lap1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lap2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lap2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lap3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lap3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lap4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lap4.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
